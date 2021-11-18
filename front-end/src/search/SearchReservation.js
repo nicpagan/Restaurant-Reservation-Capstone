@@ -78,54 +78,6 @@ function SearchReservation() {
       )}
       </main>
     )
-
-
-
-
-
-
-  //   <div>
-  //     <div className="headingBar d-md-flex my-3 p-2">
-  //       <h1>Lookup a Reservation</h1>
-  //     </div>
-  //     <div className="d-md-flex mb-3">
-  //       <h4>Search for a reservation by mobile number</h4>
-  //     </div>
-  //     <form onSubmit={findClickHandler}>
-  //       <div className="form-group">
-  //         <input
-  //           name="mobile_number"
-  //           type="text"
-  //           className="form-control"
-  //           id="inputMobileNumber"
-  //           required={true}
-  //           placeholder="Enter a customer's phone number"
-  //           onChange={mobileNumberChangeHandler}
-  //         ></input>
-  //       </div>
-  //       <div className="col-md-6">
-  //         <button type="submit" className="btn btn-dark mb-3">
-  //           Find
-  //         </button>
-  //         <button type="button" className="btn btn-dark" onClick={cancelClickHandler}> Cancel </button>
-
-  //       </div>
-  //     </form>
-
-  //     {reservations.length < 1 ? (
-  //       <div className="d-md-flex mb-3">
-  //         <h4 className="my-3">(No reservations found.)</h4>
-  //       </div>
-  //     ) : (
-  //       <>
-  //         <div className="d-md-flex mb-3">
-  //           <h4 className="my-3">{`Reservations for ${mobileNumber}`}</h4>
-  //         </div>
-  //         <ReservationDetail reservations={reservations} />
-  //       </>
-  //     )}
-  //   </div>
-  // );
 }
 
 export default SearchReservation
