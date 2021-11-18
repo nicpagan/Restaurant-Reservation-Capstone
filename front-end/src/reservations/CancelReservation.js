@@ -34,7 +34,7 @@ function CancelReservation({ reservation }) {
   return (
     <button
       type="button"
-      className="btn btn-dark"
+      className="btn btn-sm btn-dark btn-block "
       data-reservation-id-cancel={reservation_id}
       onClick={() => cancelClickHandler()}
     >

@@ -49,13 +49,13 @@ function ReservationDetail({ reservations = [] }) {
                   <>
                     <td>
                       <a
-                        className="btn btn-dark mr-3"
+                        className="btn btn-block btn-sm btn-dark mr-3"
                         href={`/reservations/${reservation.reservation_id}/seat`}
                       >
                         Seat
                       </a>
                       <a
-                        className="btn btn-dark mr-3"
+                        className="btn btn-block btn-sm btn-dark mr-3"
                         href={`/reservations/${reservation.reservation_id}/edit`}
                       >
                         Edit
