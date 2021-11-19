@@ -83,9 +83,10 @@ const partyChangeHandler = (event) => setParty(event.target.value);
               type="text"
               onChange={mobileNumberChangeHandler}
               required={true}
+              placeholder= "0000000000"
               value={mobileNumber}
             />
-            <small className="form-text text-muted"> Enter Mobile Number </small>
+            <small className="form-text text-muted"> Enter Mobile Number (ex: 0000000000) </small>
           </div>
           <div className="col-4 form-group">
             <label className="form-label" htmlFor="mobile_number">
@@ -118,7 +119,9 @@ const partyChangeHandler = (event) => setParty(event.target.value);
             placeholder='DDMMYYYY'
             value={date}
           />
-          <small className="form-text text-muted"> Enter Reservation Date (Closed on Tuesdays) </small>
+          <small className="form-text text-muted"> Enter Reservation Date (ex: DDMMYYYY) </small>
+          <small className="form-text text-muted">(Closed on Tuesdays) </small>
+
           </div>
           <div className="col-4 form-group"> 
           <label>
