@@ -26,7 +26,7 @@ function ReservationDetail({ reservations = [] }) {
           </thead>
           <tbody>
             {reservations.map((reservation) => (
-              <tr>
+              <tr key={reservation.reservation_id}>
                 <th className="align-middle" scope="row">
                   {reservation.reservation_id}
                 </th>

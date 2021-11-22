@@ -30,7 +30,7 @@ function SearchReservation() {
 
   return (
       <main>
-      <div class="headingBar d-md-flex my-3 p-2">
+      <div className="headingBar d-md-flex my-3 p-2">
           <h1>Lookup a Reservation</h1>
       </div>
       <h4>Search for a reservation by mobile number:</h4>

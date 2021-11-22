@@ -1,4 +1,3 @@
-
 import FinishTable from "./FinishTable"
 
 // Displays a list of the `tables`
@@ -19,7 +18,7 @@ function TableDetail ({ tables = [] }) {
         <tbody>
           {!tables && "No available tables."}
           {tables.map((table) => (
-            <tr>
+            <tr key={table.table_id}>
             <th scope="row">{table.table_id}</th>
             <td>{table.table_name}</td>
             <td>{table.capacity}</td>

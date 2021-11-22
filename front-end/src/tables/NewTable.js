@@ -41,7 +41,7 @@ function NewTable() {
 
   return (
         <main>
-        <div class="headingBar d-md-flex my-3 p-2">
+        <div className="headingBar d-md-flex my-3 p-2">
             <h1>New Table</h1>
         </div>
           <ErrorAlert error={error} />
