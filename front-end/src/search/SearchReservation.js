@@ -28,6 +28,8 @@ function SearchReservation() {
     return () => abortController.abort();
   }
 
+  console.log(reservations)
+
   return (
       <main>
       <div className="headingBar d-md-flex my-3 p-2">
@@ -66,7 +68,7 @@ function SearchReservation() {
 
         {reservations.length < 1 ? (
         <div className="d-md-flex mb-3">
-          <h4 className="my-3">(No reservations found.)</h4>
+          <h4 className="my-3">(No reservations found)</h4>
         </div>
       ) : (
         <>

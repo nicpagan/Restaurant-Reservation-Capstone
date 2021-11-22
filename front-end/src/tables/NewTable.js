@@ -80,6 +80,7 @@ function NewTable() {
             <button
               type="submit"
               className="btn btn-dark"
+              disabled={tableName.length < 2}
             >
               Submit 
             </button>
