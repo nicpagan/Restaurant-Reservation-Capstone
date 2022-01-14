@@ -14,17 +14,19 @@ This application allows a user to create, edit, and cancel a reservation. Create
 ## The Dashboard
 dashboard
 
+![](https://lh4.googleusercontent.com/-5-pbsc8X1-ntKteeF45ESimtxI-MwJw_fhp4VkrBInlDhhjABANGLun7c7kvha3DXK_wowElIJows0ecmk0F_KTBVtUk2gznH1SxD8b68IVmGX7sXYteY0nkN6QwA2crLnnxArL)
+
 Create new Reservation
-create-a-reservation
+![](https://lh6.googleusercontent.com/Hm51-FY6ITJBdfIqZ0UGAb33Cu90OVPLLRoVKQRwf8cN9J7To2ciyr8NnJfie5V6e3rCqUKMtXqMx6D8hC1Q2bEgJOMI3vL5fqkt41Dp0rZEpfATk-HxyCBeCaPQLuT1-Ak5u-12)
 
 Create new Table
-create-a-table
+![](https://lh5.googleusercontent.com/Eipn8cT_vDCGtIvcKGYQkRMTkSu9GK85PFFGnkVB6X3QDM3zWw89il4J9vm4mrxh5kH-ZSY3Ugj6PG3SNZ3wStMBoTHmcL1Pz-hMkyCm0NmrIyb2jBNpTCIw5vu5RtPL6cffJS1T)
 
 Search for Reservation
-search-for-reservation
+![](https://lh5.googleusercontent.com/7oT4yiSak35SF9IMAX3hPydwX2TQaphJUk8YDvR3aCnyr0kfxo6SLvaAbRkygPulB7cU0R0IFSL7Rf6L-cyoLH4HSE0n81-xJ3tdu-fNTrei56hA0Liv-X_EfokAGHO_kLYeDrN2)
 
 Seat a Reservation
-seat-a-reservation
+![](https://lh3.googleusercontent.com/dUPYGcXBtV7tqL8B_DXXfqWG0p24ByGHB-bCI4Lox4mD3OPLQaADiL0EtDuyEGdCSyFug6SZrxGhst2EhbepoxvN8ckR0KxZ7FHbP-m6MwuLiqUdX95184fgRKttWa2L8i7PJWI7)
 
 
 ## Technologies and Tools
