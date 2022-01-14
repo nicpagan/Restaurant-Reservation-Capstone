@@ -1,29 +1,43 @@
 # Capstone: Restaurant Reservation System
 
-> You have been hired as a full stack developer at _Periodic Tables_, a startup that is creating a reservation system for fine dining restaurants.
-> The software is used only by restaurant personnel when a customer calls to request a reservation.
-> At this point, the customers will not access the system online.
+## Project Summary
 
-There are no user stories for deployment: it is expected that you will deploy the application to production after you finish a user story.
+A full stack web application built with React, Node, Express, CSS, Bootstrap and connected to a PostgreSQL database.
 
-There are no user stories for logging: it is expected that you will add logging to the application with enough detail to help you diagnose issues in production.
+The development process included the use of the following tools and practices:
 
-## Existing files
+Project management tools including Trello and Github projects to create and track user stories and subtasks.
+New features (user stories) were developed on separate branches and merged into main after passing end to end tests.
+Frequent deployments to production with Heroku and Netlify.
+This application allows a user to create, edit, and cancel a reservation. Create a table, seat a reservation to a table, and finish a table. As well as search for reservations by phone number.
 
-This repository is set up as a *monorepo*, meaning that the frontend and backend projects are in one repository. This allows you to open both projects in the same editor.
+## The Dashboard
+dashboard
 
-As you work through the user stories listed later in this document, you will be writing code that allows your frontend and backend applications to talk to each other. You will also write code to allow your controllers and services to connect to, and query, your PostgreSQL database via [Knex](http://knexjs.org/).
+Create new Reservation
+create-a-reservation
 
-The table below describes the folders in this starter repository:
+Create new Table
+create-a-table
 
-| Folder/file path | Description                                                      |
-| ---------------- | ---------------------------------------------------------------- |
-| `./back-end`     | The backend project, which runs on `localhost:5000` by default.  |
-| `./front-end`    | The frontend project, which runs on `localhost:3000` by default. |
+Search for Reservation
+search-for-reservation
 
-This starter code closely follows the best practices and patterns established in the Robust Server Structure module.
+Seat a Reservation
+seat-a-reservation
 
-**Note**: Please do not submit a pull request to this repository with your solution.
+
+## Technologies and Tools
+- React
+- JavaScript
+- Node
+- Express
+- Knex
+- PostgreSQL
+- HTML
+- CSS
+- Bootstrap
+
 
 ### Backend Existing files
 
